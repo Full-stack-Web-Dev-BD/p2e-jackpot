@@ -54,7 +54,7 @@ const NavBar = () => {
                       <option value={4}>NL</option>
                     </select>
                   </div>
-                  <button type="button" className="cmn-btn-alt cmn-btn" data-toggle="modal" data-target="#signUpModalLong">
+                  <button style={{marginRight:'10px'}}  type="button" className="cmn-btn-alt cmn-btn" data-toggle="modal" data-target="#signUpModalLong">
                     Register
                   </button>
                   {/* <button
