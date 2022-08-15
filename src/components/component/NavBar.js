@@ -4,22 +4,23 @@ const NavBar = () => {
 
   return (
 
-    <header id="header-section">
+    <header id="header-section " className="homepage-header">
       <div className="overlay">
         <div className="container">
           <div className="row d-flex header-area">
+       
+            <nav className="navbar navbar-expand-lg p-0">
             <div className="logo-section flex-grow-1 d-flex align-items-center">
-              <a className="site-logo site-title" href="index.html"><img src="images/logo.png" alt="site-logo" /></a>
+              <a className="site-logo site-title" href="/"><img src="images/logo.png" alt="site-logo" /></a>
             </div>
             <button className="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <i className="fas fa-bars" />
             </button>
-            <nav className="navbar navbar-expand-lg p-0">
               <div className="navbar-collapse collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav main-menu ml-auto">
                   {/* <li className="menu_has_children"><a href="#0" className="active">Home</a>
                       <ul className="sub-menu">
-                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="/">Home 1</a></li>
                         <li><a href="index-2.html">Home 2</a></li>
                       </ul>
                     </li> */}

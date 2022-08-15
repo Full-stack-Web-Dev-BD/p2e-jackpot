@@ -1175,13 +1175,13 @@ const Home = () => {
                 <div className="row d-flex header-area">
                   <div className="col-lg-8 col-md-8 d-flex justify-content-md-between justify-content-center align-items-center">
                     <div className="logo-section">
-                      <a className="site-logo site-title" href="index.html">
+                      <a className="site-logo site-title" href="/">
                         <img src="images/logo.png" alt="site-logo" />
                       </a>
                     </div>
                     <ul className="navbar-nav main-menu d-flex align-items-center">
                       <li>
-                        <a href="index.html" className="active">
+                        <a href="/" className="active">
                           Home
                         </a>
                       </li>
